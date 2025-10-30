@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a2115ff90356aee4f9216d2195ec39ff
+guid: cae03ee664981b74cbc6add7ebe20749
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8469743818592772636
-    second: PlayerGnome_0
+      213: -6718050833164155061
+    second: Up & Up - Gnome Death_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PlayerGnome_0
+      name: Up & Up - Gnome Death_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 476
-        height: 498
+        x: 1225
+        y: 1026
+        width: 1273
+        height: 1462
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c1268cdd0239a8570800000000000000
-      internalID: 8469743818592772636
+      spriteID: b47cb3a6c50b4c2a0800000000000000
+      internalID: -6718050833164155061
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PlayerGnome_0: 8469743818592772636
+      Up & Up - Gnome Death_0: -6718050833164155061
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
