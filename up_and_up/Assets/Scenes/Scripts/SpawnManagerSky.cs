@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class SpawnManagerSky : MonoBehaviour
 {
-    public GameObject[] cloudPrefabs;
+    public GameObject[] hazardPrefabs;
     private float spawnRangeX = 20f;
     private float spawnPosZ = 20f;
     private float startDelay = 2f;
@@ -10,13 +10,13 @@ public class SpawnManagerSky : MonoBehaviour
 
     void Start()
     {
-        InvokeRepeating(nameof(SpawnRandomCloud), startDelay, spawnInterval);
+        InvokeRepeating(nameof(SpawnRandomHazard), startDelay, spawnInterval);
     }
 
-    void SpawnRandomCloud()
+    void SpawnRandomHazard()
     {
-        int cloudIndex = Random.Range(0, cloudPrefabs.Length);
+        int hazardIndex = Random.Range(0, hazardPrefabs.Length);
         Vector3 spawnPos = new Vector3(Random.Range(-spawnRangeX, spawnRangeX), 0, spawnPosZ);
-        Instantiate(cloudPrefabs[cloudIndex], spawnPos, cloudPrefabs[cloudIndex].transform.rotation);
+        Instantiate(hazardPrefabs[hazardIndex], spawnPos, hazardPrefabs[hazardIndex].transform.rotation);
     }
 }
