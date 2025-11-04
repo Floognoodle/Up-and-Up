@@ -25,7 +25,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 19476
+  controlID: 21429
   draggingID: 0
 --- !u!114 &2
 MonoBehaviour:
@@ -93,8 +93,8 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 0
-    m_VSlider: 0
+    m_HSlider: 1
+    m_VSlider: 1
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -107,18 +107,18 @@ MonoBehaviour:
       y: 21
       width: 1163
       height: 438
-    m_Scale: {x: 0.3631841, y: 0.3631841}
-    m_Translation: {x: 581.5, y: 219.00002}
+    m_Scale: {x: 0.5131719, y: 0.5131719}
+    m_Translation: {x: 570.7399, y: 165.50182}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1601.1163
-      y: -603
-      width: 3202.2327
-      height: 1206
+      x: -1112.1808
+      y: -322.50754
+      width: 2266.297
+      height: 853.51514
     m_MinimalGUI: 1
   m_defaultScale: 0.3631841
   m_LastWindowPixelSize: {x: 1163, y: 459}
@@ -152,7 +152,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 19385
+  controlID: 21338
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -745,9 +745,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -21.124157, y: -4.6373067, z: -0.24074024}
+    m_Target: {x: -26.454649, y: -4.248513, z: -0.256275}
     speed: 2
-    m_Value: {x: -21.124157, y: -4.6373067, z: -0.24074024}
+    m_Value: {x: -26.454649, y: -4.248513, z: -0.256275}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -797,9 +797,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 11.571639
+    m_Target: 13.125103
     speed: 2
-    m_Value: 11.571639
+    m_Value: 13.125103
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -883,7 +883,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 19430
+  controlID: 21383
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -1050,7 +1050,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Sound Effects
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1095,8 +1095,8 @@ MonoBehaviour:
       m_ResourceFile: 
   m_AssetTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d42effff
-    m_LastClickedID: 0
+    m_SelectedIDs: b0b10000
+    m_LastClickedID: 45488
     m_ExpandedIDs: ffffffff00000000aeb10000b0b10000b2b10000b4b10000b6b10000b8b10000bab10000aab30000b6c40000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1123,8 +1123,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: d42effff
-    m_LastClickedInstanceID: -53548
+    m_SelectedInstanceIDs: b0b10000
+    m_LastClickedInstanceID: 45488
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
@@ -1223,7 +1223,7 @@ MonoBehaviour:
     m_CachedPref: -160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -53548
+  m_LastInspectedObjectInstanceID: 45488
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
