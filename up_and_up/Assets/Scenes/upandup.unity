@@ -560,7 +560,7 @@ GameObject:
   - component: {fileID: 1912357103}
   - component: {fileID: 1912357105}
   m_Layer: 0
-  m_Name: Up&Up Clouds_0
+  m_Name: Background Sky
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
