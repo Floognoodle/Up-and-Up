@@ -45,7 +45,7 @@ public class PlayerController2D : MonoBehaviour
         if (transform.position.y < bottomYLimit)
         {
             PopBalloon();
-            // Teleport player back up a bit to prevent instant repeated balloon pop
+            // Moves player to prevent instant repeated balloon pop
             transform.position = new Vector3(transform.position.x, bottomYLimit + 2f, transform.position.z);
             rb.linearVelocity = Vector2.zero;
         }
