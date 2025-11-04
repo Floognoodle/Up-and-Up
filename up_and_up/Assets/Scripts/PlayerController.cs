@@ -12,7 +12,7 @@ public class PlayerController2D : MonoBehaviour
 
     [Header("Health (Balloons)")]
     [Range(0, 3)]
-    public int balloons = 3; // Can be 0 to 3
+    public int balloons = 3;
 
     [Tooltip("Gnome art for 3, 2, 1, 0 balloons")]
     public Sprite[] balloonSprites;
