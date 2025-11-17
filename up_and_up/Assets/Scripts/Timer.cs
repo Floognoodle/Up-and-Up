@@ -25,7 +25,7 @@ public class PlayTimeTimer : MonoBehaviour
 
         if (spawnManager == null)
         {
-            spawnManager = FindObjectOfType<SpawnManagerSky>();
+            spawnManager = FindFirstObjectByType<SpawnManagerSky>();
         }
     }
 

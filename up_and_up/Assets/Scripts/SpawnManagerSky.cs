@@ -112,7 +112,6 @@ public class SpawnManagerSky : MonoBehaviour
 
         int half = Mathf.Max(1, n / 2);
 
-        // If minutePassed is true, clear indices 0..half-1. Otherwise clear half..n-1
         int start = 0;
         int end = 0;
         if (minutePassed)

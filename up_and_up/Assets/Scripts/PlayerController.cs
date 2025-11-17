@@ -114,7 +114,7 @@ public class PlayerController2D : MonoBehaviour
 
         if (balloons <= 0)
         {
-            PlayTimeTimer timer = FindObjectOfType<PlayTimeTimer>();
+            PlayTimeTimer timer = FindFirstObjectByType<PlayTimeTimer>();
             if (timer != null)
             {
                 timer.ShowLose();
@@ -161,7 +161,7 @@ public class PlayerController2D : MonoBehaviour
 
         if (transform.position.y > topWorldY)
         {
-            LoopBackground[] backgrounds = FindObjectsOfType<LoopBackground>();
+            LoopBackground[] backgrounds = Object.FindObjectsByType<LoopBackground>(FindObjectsSortMode.None);
             for (int i = 0; i < backgrounds.Length; i++)
             {
                 LoopBackground bg = backgrounds[i];
